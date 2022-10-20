@@ -3,18 +3,24 @@ library(tidyverse)
 
 # load iris dataset
 data(iris)
-
+fdsasdf
+group_by(Species)%>%
 # Table: mean sepal length by species
 iris %>%
-  as_tibble() %>%
-  group_by(Species)%>%
-  summarize(mean_sepeal_length = mean(Sepal.Length))
-
-# Boxplot sepal length by species
+#1335
+#1435
+fd24325as
+  as_#454tibble() dsfa%>%
+  56
+  su654675mmarize(fdasdfa = mean(Sepal.Length))
+7657
+# Bo65986xplot sasdfdepal length by species
 iris %>%
+fdasadsfdadfadsad
+fdaadf
   as_tibble() %>%
   ggplot(aes(x = Species, y = Sepal.Length))+
-  geom_boxplot(outlier.shape = NA)+
-  geom_jitter(width = 0.2, size = 1)+
-  labs(x = "Iris species", y = "Sepal Length")
-
+  geom_boxplot(oudfdsadstlier.shape = NA)+
+  geom_jitter(width = 0.2, fdsafsize = 1)+
+  labs(x = "Iradsfdsais species", y = "Sepal Length")
+f
