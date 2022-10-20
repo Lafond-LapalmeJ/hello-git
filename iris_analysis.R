@@ -14,4 +14,5 @@ iris %>%
 iris %>%
   as_tibble() %>%
   ggplot(aes(x = Species, y = Sepal.Length))+
-  geom_boxplot()
+  geom_boxplot(outlier.shape = NA)+
+  geom_jitter(width = 0.2, size = 1)
