@@ -14,4 +14,5 @@ iris %>%
 iris %>%
   as_tibble() %>%
   ggplot(aes(x = Species, y = Sepal.Length))+
-  geom_boxplot()
+  geom_boxplot()+
+  labs(x = "Iris species", y = "Sepal Length")
